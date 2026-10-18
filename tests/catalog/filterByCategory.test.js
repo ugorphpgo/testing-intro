@@ -26,9 +26,9 @@ describe('filterByCategory', () => {
     expect(ids(filterByCategory(products,'clothes'))).toEqual([]);
   });
   test("'toys' возвращает пустой массив",() => {
-    expect(ids(filterByCategory(products, 'clothes'))).toEqual([]);
+    expect(ids(filterByCategory(products, 'toys'))).toEqual([]);
   });
   test("'sports' возвращает пустой массив", () => {
-    expect(ids(filterByCategory(products, 'clothes'))).toEqual([]);
+    expect(ids(filterByCategory(products, 'sports'))).toEqual([]);
   });
 })
